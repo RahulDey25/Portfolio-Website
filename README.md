@@ -2,14 +2,14 @@
 
 Check out the live Portfolio Website deployed on vercel:
 
-[Todo App Live Demo](https://portfolio-website-g2egjru2s-rahul-deys-projects.vercel.app/)
+[Live Demo of My Portfolio Website](https://portfolio-website-g2egjru2s-rahul-deys-projects.vercel.app/)
 
 
 ## Git Repository
 
-You can find the source code for this Todo App on GitHub:
+You can find the source code for this Portfolio Website on GitHub:
 
-[Todo App Repository](https://github.com/RahulDey25/Portfolio-Website)
+[Portfolio Website Repository](https://github.com/RahulDey25/Portfolio-Website)
 
 
 
