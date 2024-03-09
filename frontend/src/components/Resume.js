@@ -152,31 +152,11 @@ const Resume = () => {
   };
 
   return (
-    <div className='div-class' style={{ display: 'flex', justifyContent: 'center' }} >
+    <div className='footer-text' style={{ display: 'flex', justifyContent: 'center' }} >
       <PDFDownloadLink document={<MyDocument resumeData={resumeData} />} fileName="resume.pdf">
         {({ blob, url, loading, error }) =>
-          loading ? 'Loading document...' : <button
-  style={{
-    padding: '10px 20px',
-    border: '1px solid white',
-    backgroundColor: 'transparent',
-    color: 'white',
-    cursor: 'pointer',
-    outline: 'none',
-    fontSize: '16px',
-    fontWeight: '300',
-    transition: 'background-color 0.3s, color 0.3s'
-  }}
-  onMouseEnter={(e) => {
-    e.target.style.backgroundColor = 'white';
-    e.target.style.color = 'black';
-  }}
-  onMouseLeave={(e) => {
-    e.target.style.backgroundColor = 'transparent';
-    e.target.style.color = 'white';
-  }}
->
-  Download Resume/CV
+          loading ? 'Loading document...' : <button className="vvd" onClick={() => console.log("Resume Downloaded")}>
+   <span>Download Resume/CV</span>
 </button>
 
         }
