@@ -66,11 +66,16 @@ export const Projects = () => {
                   {/* Project Heading and about Description */}
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Explore a diverse array of innovative projects crafted with
+                    the powerful MERN (MongoDB, Express.js, React, Node.js)
+                    stack. These full-stack web development endeavors seamlessly
+                    integrate front-end and back-end technologies to deliver
+                    dynamic and immersive user experiences. From interactive
+                    social platforms to robust e-commerce solutions, each
+                    project showcases the versatility and proficiency of MERN
+                    stack development. Dive into a world where creativity meets
+                    functionality, and witness firsthand the transformative
+                    capabilities of MERN stack projects.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -106,20 +111,12 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                        Stay tuned for exciting updates as we continue to expand our project portfolio!
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                        Stay tuned for exciting updates as we continue to expand our project portfolio!
                         </p>
                       </Tab.Pane>
                     </Tab.Content>

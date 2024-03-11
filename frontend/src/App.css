@@ -654,3 +654,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	height: 100%;
 	position: absolute;
 }
+
+/* css for AboutMe */
+
+.about {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-image: url('./assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+ .about-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.about h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.about p {
+  color: #B8B8B8;
+  font-size: 18px; 
+  text-align: justify;
+}
+
+

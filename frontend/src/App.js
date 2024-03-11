@@ -6,8 +6,10 @@ import { Skills } from "./components/Skills";
 import {Projects} from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
-import Resume from "./components/Resume";
+import {Resume} from "./components/Resume";
+// import {}
 import "bootstrap/dist/css/bootstrap.min.css";
+import { AboutMe } from "./components/AboutMe";
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <AboutMe />
       <Resume />
     </div>
   );

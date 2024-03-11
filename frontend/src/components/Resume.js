@@ -2,7 +2,7 @@ import React from 'react';
 import { PDFDownloadLink, Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 
 // Define styles for PDF document
-const styles = StyleSheet.create({
+ const styles = StyleSheet.create({
   page: {
     flexDirection: 'column',
     padding: 20,
@@ -86,7 +86,7 @@ const MyDocument = ({ resumeData }) => (
 );
 
 // Functional component for Resume
-const Resume = () => {
+export const Resume = () => {
   // Define resume data
   const resumeData = {
     name: 'Rahul Dey',
@@ -165,4 +165,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+
