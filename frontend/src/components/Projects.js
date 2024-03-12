@@ -18,36 +18,42 @@ export const Projects = () => {
       description:
         "A basic Amazon clone project using HTML and CSS to replicate the user interface and layout of the Amazon website",
       imgUrl: Amazonclone,
+      link: 'https://amazon-clone-sigma-coral.vercel.app/',
     },
     {
       title: "Flashcard Generator",
       description:
         "A versatile flashcard generator tool that allows users to create, read, update, and remove cards, with additional functionalities including download, share, and print options",
       imgUrl: Flashcard,
+      link: 'https://flashcard-generator-c2s3.vercel.app/',
     },
     {
       title: "Portfolio Website",
       description:
         "Designed and developed a personalized portfolio website showcasing my skills, projects, and accomplishments in web development",
       imgUrl: Portfolio,
+      link: 'https://portfolio-website-8yppjdzio-rahul-deys-projects.vercel.app/',
     },
     {
       title: "Todo App",
       description:
         "A minimalist task management application designed for efficient organization and prioritization of daily tasks",
       imgUrl: TodoApp,
+      link: 'https://todo-app-eosin-beta-67.vercel.app/',
     },
     {
       title: "Weather App",
       description:
         "A weather app that provides real-time weather information and forecasts for any location",
       imgUrl: Weatherapp,
+      link: 'https://weather-app-nine-virid-79.vercel.app/',
     },
     {
       title: "Get Youtube Subscribers",
       description:
         "A web service designed to retrieve relevant information about subscribers upon receiving specific GET requests, facilitating effective management and analysis of YouTube audience engagement",
       imgUrl: GetYutbSubs,
+      link: 'https://get-youtube-subscribers-beige.vercel.app/',
     },
   ];
 
@@ -108,6 +114,8 @@ export const Projects = () => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
+                        
+
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
