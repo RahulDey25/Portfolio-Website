@@ -2,7 +2,7 @@
 
 Check out the live Portfolio Website deployed on vercel:
 
-[Live Demo of My Portfolio Website](https://portfolio-website-cdsiq85yz-rahul-deys-projects.vercel.app)
+[Live Demo of My Portfolio Website](https://portfolio-website-git-main-rahul-deys-projects.vercel.app/)
 
 
 ## Git Repository
