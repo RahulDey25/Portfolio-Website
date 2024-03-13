@@ -32,7 +32,7 @@ export const Projects = () => {
       description:
         "Designed and developed a personalized portfolio website showcasing my skills, projects, and accomplishments in web development",
       imgUrl: Portfolio,
-      link: 'https://portfolio-website-8yppjdzio-rahul-deys-projects.vercel.app/',
+      link: 'https://portfolio-website-cdsiq85yz-rahul-deys-projects.vercel.app/',
     },
     {
       title: "Todo App",
