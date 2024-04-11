@@ -9,16 +9,17 @@ import Portfolio from "../assets/img/portfolio-Img.png";
 import TodoApp from "../assets/img/todo-Img.png";
 import Weatherapp from "../assets/img/weatherApp-Img.png";
 import GetYutbSubs from "../assets/img/youtubSubs-Img.png";
+import EntertainmentApp from "../assets/img/entApp-Img.png";
 
 export const Projects = () => {
   // Project information with images
   const projects = [
     {
-      title: "Amazon Clone",
+      title: "Entertainment App",
       description:
-        "A basic Amazon clone project using HTML and CSS to replicate the user interface and layout of the Amazon website",
-      imgUrl: Amazonclone,
-      link: 'https://amazon-clone-sigma-coral.vercel.app/',
+        "An Entertainment App designed for seamless user experience, featuring dynamic pages, dedicated sections for Movies and TV Series, a Bookmarks feature for personalized libraries, and robust security measures with scalable architecture for efficient growth and maintenance",
+      imgUrl: EntertainmentApp,
+      link: 'https://entertainment-app-dusky.vercel.app/',
     },
     {
       title: "Flashcard Generator",
@@ -32,7 +33,7 @@ export const Projects = () => {
       description:
         "Designed and developed a personalized portfolio website showcasing my skills, projects, and accomplishments in web development",
       imgUrl: Portfolio,
-      link: 'https://portfolio-website-cdsiq85yz-rahul-deys-projects.vercel.app/',
+      link: 'https://portfolio-website-alpha-navy.vercel.app/',
     },
     {
       title: "Todo App",
@@ -54,6 +55,13 @@ export const Projects = () => {
         "A web service designed to retrieve relevant information about subscribers upon receiving specific GET requests, facilitating effective management and analysis of YouTube audience engagement",
       imgUrl: GetYutbSubs,
       link: 'https://get-youtube-subscribers-beige.vercel.app/',
+    },
+    {
+      title: "Amazon Clone",
+      description:
+        "A basic Amazon clone project using HTML and CSS to replicate the user interface and layout of the Amazon website",
+      imgUrl: Amazonclone,
+      link: 'https://amazon-clone-sigma-coral.vercel.app/',
     },
   ];
 
