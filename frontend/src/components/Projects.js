@@ -7,61 +7,72 @@ import Amazonclone from "../assets/img/amazonClone-Img.png";
 import Flashcard from "../assets/img/flashcard-Img.png";
 import Portfolio from "../assets/img/portfolio-Img.png";
 import TodoApp from "../assets/img/todo-Img.png";
-import Weatherapp from "../assets/img/weatherApp-Img.png";
+import Weatherapp from "../assets/img/weather-Img.png";
 import GetYutbSubs from "../assets/img/youtubSubs-Img.png";
 import EntertainmentApp from "../assets/img/entApp-Img.png";
+import CryptoTracker from "../assets/img/CryptoTracker-Img.png";
 
 export const Projects = () => {
   // Project information with images
-  const projects = [
+  const projectsI = [
     {
       title: "Entertainment App",
       description:
         "An Entertainment App designed for seamless user experience, featuring dynamic pages, dedicated sections for Movies and TV Series, a Bookmarks feature for personalized libraries, and robust security measures with scalable architecture for efficient growth and maintenance",
       imgUrl: EntertainmentApp,
-      link: 'https://entertainment-app-dusky.vercel.app/',
+      link: "https://entertainment-app-dusky.vercel.app/",
     },
     {
       title: "Flashcard Generator",
       description:
         "A versatile flashcard generator tool that allows users to create, read, update, and remove cards, with additional functionalities including download, share, and print options",
       imgUrl: Flashcard,
-      link: 'https://flashcard-generator-c2s3.vercel.app/',
+      link: "https://flashcard-generator-c2s3.vercel.app/",
     },
     {
-      title: "Portfolio Website",
+      title: "Cryptocurrency Tracker",
       description:
-        "Designed and developed a personalized portfolio website showcasing my skills, projects, and accomplishments in web development",
-      imgUrl: Portfolio,
-      link: 'https://portfolio-website-alpha-navy.vercel.app/',
-    },
-    {
-      title: "Todo App",
-      description:
-        "A minimalist task management application designed for efficient organization and prioritization of daily tasks",
-      imgUrl: TodoApp,
-      link: 'https://todo-app-eosin-beta-67.vercel.app/',
+        "A tool for monitoring real-time prices and performance of various cryptocurrencies.",
+      imgUrl: CryptoTracker,
+      link: "https://crpyto-tracker-one.vercel.app/",
     },
     {
       title: "Weather App",
       description:
         "A weather app that provides real-time weather information and forecasts for any location",
       imgUrl: Weatherapp,
-      link: 'https://weather-app-nine-virid-79.vercel.app/',
+      link: "https://weather-app-nine-virid-79.vercel.app/",
     },
     {
       title: "Get Youtube Subscribers",
       description:
         "A web service designed to retrieve relevant information about subscribers upon receiving specific GET requests, facilitating effective management and analysis of YouTube audience engagement",
       imgUrl: GetYutbSubs,
-      link: 'https://get-youtube-subscribers-beige.vercel.app/',
+      link: "https://get-youtube-subscribers-beige.vercel.app/",
+    },
+    {
+      title: "Todo App",
+      description:
+        "A minimalist task management application designed for efficient organization and prioritization of daily tasks",
+      imgUrl: TodoApp,
+      link: "https://todo-app-eosin-beta-67.vercel.app/",
+    },
+  ];
+
+  const projectsII = [
+    {
+      title: "Portfolio Website",
+      description:
+        "Designed and developed a personalized portfolio website showcasing my skills, projects, and accomplishments in web development",
+      imgUrl: Portfolio,
+      link: "https://portfolio-website-alpha-navy.vercel.app/",
     },
     {
       title: "Amazon Clone",
       description:
         "A basic Amazon clone project using HTML and CSS to replicate the user interface and layout of the Amazon website",
       imgUrl: Amazonclone,
-      link: 'https://amazon-clone-sigma-coral.vercel.app/',
+      link: "https://amazon-clone-sigma-coral.vercel.app/",
     },
   ];
 
@@ -118,21 +129,22 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {projectsI.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                        
-
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                        Stay tuned for exciting updates as we continue to expand our project portfolio!
-                        </p>
+                        <Row>
+                          {projectsII.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                        Stay tuned for exciting updates as we continue to expand our project portfolio!
+                          Stay tuned for new projects and updates as we continue
+                          to expand our project portfolio...
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
